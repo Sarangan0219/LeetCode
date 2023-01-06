@@ -9,10 +9,14 @@ You may return the answer in any order. The answer is guaranteed to be unique (e
 
 */
 
+import java.awt.*;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class KClosestPointsToOrigin {
+
+    public static void main(String[] args) {
+    }
 
     public int[][] kClosest(int[][] points, int k) {
         PriorityQueue<int[]> pq = new PriorityQueue<>(new PointComparator());
