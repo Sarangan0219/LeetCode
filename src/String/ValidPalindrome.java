@@ -6,7 +6,7 @@ package String;
     numbers. Given a string s, return true if it is a palindrome, or false otherwise.
 */
 
-public class ValidPalindrome {
+public  class ValidPalindrome {
 
     public boolean isPalindrome(String s) {
         s = s.replaceAll("[^A-Za-z0-9]", "");
@@ -26,4 +26,5 @@ public class ValidPalindrome {
         return true;
 
     }
+
 }
